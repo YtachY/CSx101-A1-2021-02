@@ -8,3 +8,14 @@ Python course by BigData and Machine Learning Club from UIT
 ## - [] Bai05
 ## - [] Bai06
 ## - [] Bai07
+
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
+
