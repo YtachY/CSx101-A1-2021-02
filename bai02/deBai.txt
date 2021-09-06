@@ -1,0 +1,474 @@
+Viết chương trình rút gọn phân số.
+
+INPUT
+
+Dòng đầu tiên là một số nguyên 
+n
+ 
+(
+1
+≤
+n
+≤
+100
+)
+ — Số lượng phân số cần rút gọn
+
+n
+ dòng tiếp theo là hai số nguyên 
+a
+,
+b
+(
+a
+,
+b
+≥
+1
+)
+ — 
+a
+,
+b
+ lần lượt là tử số và mẫu số.
+
+OUTPUT
+
+Ứng với 
+n
+ dòng, in ra theo thứ tự tử số và mẫu số (cách nhau một khoảng trắng) sau khi rút gọn; mẫu số chỉ được in khi lớn hơn 1.
+
+VÍ DỤ:
+
+INPUT
+
+OUTPUT
+
+5
+
+6 8
+
+3 7
+
+5 10
+
+10 5
+
+25 100
+
+3 4
+
+3 7
+
+1 2
+
+2
+
+1 4
+
+2
+
+77 105
+
+121 11
+
+11 15
+
+11
+------------------------------------------
+An và Bình rất thích ăn dưa hấu vì thế họ đi ra chợ chọn mua một trái to và chín nhất.  Về đến nhà, một vấn đề nảy sinh đó là việc chia phần trái dưa hấu cho cả 2, không chỉ thế, do 2 người bạn chỉ thích những con số chẵn, vì thế cần chia quả dưa hấu làm sao cho mỗi phần có khối lượng là một con số chẵn. Hãy giúp An và Bình kiểm tra xem có thể chia quả dưa hấu này hay không.
+
+INPUT
+Một số nguyên không âm
+
+OUTPUT
+Xuất YES nếu có thể chia, ngược lại NO
+
+VÍ DỤ
+INPUT	OUTPUT
+8
+
+YES
+--------------------------------------------------
+ĐƯỜNG SẮT TRÊN CAO
+Thành phố đang xây dựng tuyến đường sắt trên cao phục vụ giao thông nội đô. Tuyến đường sẽ có k+1 ga đánh số từ 0 đến k. Tàu chạy suốt ngày đêm, từ ga 0 đến ga k và quay lại. Thời gian đi từ một ga tới ga kế tiếp là 1 phút, thời gian dừng ở mỗi ga là không đáng kể. Hệ thống giao thông này không những nhanh, chuẩn xác về thời gian mà còn là một phương tiện tuyệt vời để ngắm thành phố.
+
+BHL của UIT quyết định sẽ tặng cho tất cả tham gia lớp Python online mỗi bạn một vé đi tàu miễn phí trong năm học.
+
+Minh rất háo hức với thông báo này và quyết tâm phải giành được một vé. Phần lớn thời gian rảnh rỗi trong ngày Minh đều dùng để rèn luyện lập trình Python, còn ban đêm là thời gian của những giấc mơ đẹp. Minh thấy mình bước lên tàu ở ga số 0, ngồi cạnh cửa sổ say sưa ngắm nhìn quang cảnh thành phố từ trên cao. Thời gian trôi đi khá nhanh. Đồng hồ cho biết Minh đã ngồi trên tàu t phút và Minh quyết định xuống tàu . . .
+
+Chuông đồng hồ vang lên, Minh tỉnh giấc, vội vàng đi đánh răng, rửa mặt, chuẩn bị đi học. Trên đường tới trường Minh vẫn nghĩ về giấc mơ đêm qua và không thể nhớ được mình đã xuống ở ga số mấy.
+
+Hãy xác định ga mà Minh đã xuống trong giấc mơ sắp thành hiện thực của mình.
+
+Dữ liệu: Vào từ thiết bị nhập chuẩn gồm một dòng chứa 2 số nguyên k và t (0 < k, t ≤ 109)
+
+Kết quả: Đưa ra thiết bị xuất chuẩn một số nguyên – ga xác định được.
+
+Ví dụ:
+
+INPUT
+
+OUTPUT
+5 8
+
+2
+-----
+Alice và Bob là đôi bạn thân trong lớp và thường giúp nhau trong giờ học. Hôm nay sẽ có tiết kiểm tra toán và như mọi khi – sẽ có k đề khác nhau. Lớp học có n học sinh. Các bàn trong lớp xếp thành một hàng dọc, mỗi bàn 2 người ngồi. Vị trí bên trái của bàn đánh số là 1, vị trí bên phải – đánh số 2. Đề bài được phát bắt đầu từ vị trí 1 của bàn 1 rồi đến vị trí 2 của bàn 1, tiếp theo là vị trí 1 của bàn 2, rồi tới vị trí 2 của bàn 2, . . . lần lượt các đề 1, đề 2, đề 3, . . . cho tới đề k rồi lại quay lại đề 1, đề 2, . . . cho tới khi tất cả các học sinh đều nhận được đề.
+
+Alice đến trước và ngồi vào vị trí quen thuộc của mình: hàng p và vị trí q. Bob đến sau và muốn ngồi vào nơi sẽ nhận được cùng đề với Alice và ở dãy bàn gần với dãy bàn của Alice nhất. Nếu có 2 cách ngồi thì Bob sẽ chọn bàn ở phía trước của Alice.
+
+Hãy xác định bàn u và vị trí v trong bàn nơi Bob cần phải ngồi. Nếu không có cách ngồi thỏa mãn thì đưa ra một số -1.
+
+Dữ liệu: Vào từ thiết bị nhập chuẩn:
+
+Dòng đầu tiên chứa một số nguyên n (2 ≤ n ≤ 109),
+Dòng thứ 2 chứa số nguyên k (2 ≤ k ≤ n),
+Dòng thứ 3 chứa số nguyên p (1 ≤ p ≤ (n+1)/2),
+Dòng thứ 4 chứa số nguyên q (1 ≤ q ≤ 2).
+Kết quả: Đưa ra thiết bị xuất chuẩn một dòng 2 số nguyên u và v tìm được hoặc số -1 nếu không có cách ngồi thỏa mãn điều kiện đã nêu.
+
+Ví dụ:
+
+INPUT
+
+ 
+
+OUTPUT
+
+25
+
+2
+
+1
+
+2
+
+ 
+
+2 2
+
+-------------------------------------------
+Nhận dạng tam giác
+
+Viết chương trình nhập vào 3 số thực. Hãy cho biết đó có phải là độ dài 3 cạnh 1 tam giác hay không? Nếu phải thì đó là loại nào trong 4 loại sau: tam giác thường, cân, đều, vuông.
+
+Nếu là tam giác tính diện tích tam giác.
+
+INPUT:
+
+Dòng đầu tiên là độ dài cạnh 1.
+
+Dòng thứ hai là độ dài cạnh 2.
+
+Dòng thứ ba là độ dài cạnh 3.
+
+OUTPUT
+
+Định dạng như ví dụ minh họa. Diện tích làm tròn 02 chữ số sau dấu thập phân.
+
+VÍ DỤ:
+
+INPUT
+
+OUTPUT
+
+2
+
+3
+
+4
+
+Tam giac thuong, dien tich = 2.9
+
+3
+
+4
+
+5
+
+Tam giac vuong, dien tich = 6
+
+1
+
+2
+
+3
+
+Khong phai tam giac
+
+-------------------------------------------
+Cho một bàn cờ có kích thước n x n. Mỗi hàng được đánh số từ 1 đến n (từ dưới lên trên). Mỗi cột được đánh số từ 1 đến n (từ trái qua phải). Vì vậy, mỗi ô trong bàn cờ sẽ có tọa độ là (r,c) với r là vị trí của hàng, c là vị trí của cột.
+
+Vua trắng bắt đầu từ vị trí (1,1) còn Vua đen bắt đầu từ vị trí (n,n). Một kho báu xuất hiện ngẫu nhiên ở vị trí (x,y) trong bàn cờ. Mỗi vị Vua sẽ tìm cách đến vị trí của kho báu đó, ai tới trước sẽ giành chiến thắng.
+
+Tương tự như cờ vua, Vua trắng sẽ đi trước rồi tới lượt Vua đen và cứ thế luân phiên nhau. Mỗi lần chỉ được di chuyển đến ô liền kề nó nhất. Nếu Vua đang ở vị trí (a,b) thì có thể di chuyển đến một trong các vị trí (a+1,b), (a−1,b), (a,b+1), (a,b−1), (a+1,b−1), (a+1,b+1), (a−1,b−1), hoặc (a−1,b+1). Tất nhiên không được di chuyển ra khỏi bàn cờ.
+
+Điểm khác biệt là các vị vua có thể đứng ở những vị trí kế nhau hoặc thậm chí là trùng vị trí với nhau.
+
+Người chiến thắng là người đến vị trí kho báu đầu tiên. Bạn hãy xác định người chiến thắng.
+
+INPUT:
+
+Dòng đầu tiên là một số nguyên 
+n
+ 
+(
+2
+≤
+n
+≤
+10
+18
+)
+ — kích thước của bàn cờ.
+
+Dòng thứ hai gồm hai số 
+x
+,
+y
+ 
+(
+1
+≤
+x
+,
+y
+≤
+n
+)
+ — Tọa độ xuất hiện của kho báu.
+
+OUTPUT:
+
+Nếu Vua trắng thắng, xuất White
+
+Ngược lại xuất Black
+
+VÍ DỤ:
+
+INPUT
+
+OUTPUT
+
+4
+2 3	White
+5
+3 5	Black
+2
+2 2	Black
+
+-------------------------------------------
+Một phương trình đúng (PTĐ) được định nghĩa là phương trình có dạng 
+a
++
+b
+=
+c
+, trong đó 
+a
+,
+b
+,
+c
+>
+0
+.
+
+Ví dụ: phương trình 
+2
++
+2
+=
+4
+ (| | + | | = | | | |) và 
+1
++
+2
+=
+3
+ (| + | | = | | |) là PTĐ.
+
+Còn 
+1
++
+2
+=
+4
+ (| + | | = | | | |), 
+2
++
+2
+=
+3
+ (| | + | | = | | |) và 
+0
++
+1
+=
+1
+ ( + | = |) không phải là PTĐ.
+
+Bây giờ bạn có 
+n
+ que diêm. Bạn muốn sử dụng tất cả số que diêm đó để xếp thành một PTĐ. Không may thay, có một số trường hợp bạn không thể xếp được nếu bạn dùng tất cả 
+n
+ que diêm. Nhưng nếu bạn ra chợ mua thêm 
+k
+ que diêm nữa thì bạn có thể xếp được.
+
+Ví dụ, 
+n
+=
+2
+, bạn cần mua thêm 2 cây diêm nữa để xếp thành | + | = | |.
+
+n
+=
+5
+, bạn cần mua thêm 1 cây diêm nữa để xếp thành | | + | = | | |.
+
+                             
+
+Nhiệm vụ của bạn là tìm ra số que diêm cần mua ít nhất để có thể xếp thành PTĐ.
+
+INPUT:
+
+Dòng đầu tiên là một số nguyên 
+q
+ 
+(
+1
+≤
+q
+≤
+100
+)
+ — số lượng testcase. 
+
+q
+ dòng tiếp theo, mỗi dòng là một số nguyên 
+n
+ 
+(
+2
+≤
+n
+≤
+10
+9
+)
+ — số lượng que diêm có ban đầu.
+
+OUTPUT:
+
+Với mỗi testcase xuất ra trên một dòng số lượng que diêm tối thiểu cần phải mua để có thể xếp thành PTĐ.
+
+VÍ DỤ:
+
+INPUT
+
+OUTPUT
+
+4
+2
+5
+8
+11	
+ 
+2
+1
+0
+1
+--------------------------------------
+Hầu hét các giải bóng đá lớn bắt đầu bằng vòng bảng, mỗi bảng 4 đội. Trong vòng này mỗi đội sẽ đá vòng tròn trong bảng mình như vậy tổng cộng là 03 trận. Sau đó 02 đôi có thành tích tốt nhất ở mỗi bảng sẽ vào vòng trong.
+
+Ngoài ra có một số giải đấu người ta còn xét vé vớt vào vòng trong cho các đội xếp hạng 03 ở các bảng (như giải Asian Cup đang diễn ra). Để xếp thứ hạng cho các đội này người ta dựa vào 04 chỉ số thành tích theo thứ tự ưu tiên là:
+
+Điểm số đạt được (Points). Trận thắng được 03 điểm, trận hòa được 1 điểm, thua 0 có điểm.
+Hiệu số bàn thắng (Goal difference = Goal for - Goal against)
+Số bàn thắng ghi được (Goal For)
+Chỉ số fair play, thể hiện qua số thẻ vàng (yellow card) mà đội nhận (càng ít càng tốt)
+Cho kết quả các trận đấu cả 02 đội. Tính xem đội nào có thành tích tốt hơn.
+
+INPUT
+Input gồm 6 hàng trong đó kết quả của một đội là 03 hàng, mỗi hàng có 03 con số nguyên lần lượt là:
+
+Số bàn thắng (goal for)
+Số bàn thua (goal against)
+Số thẻ vàng (yellow card)
+OUTPUT
+Thành tích của đội tốt nhất  gồm 04 số nguyên lần lượt là:
+
+Điểm số
+Hiệu số bàn thắng
+Số bàn thắng
+Chỉ số fair play.
+VÍ DỤ
+Input	Output
+0 0 7
+9 0 0
+7 6 1
+7 7 7
+2 1 2
+1 0 2	
+7 10 16 8
+
+ 
+
+ 
+
+4 4 9
+6 0 0
+2 1 0
+8 5 6
+8 7 3
+6 7 0
+
+ 
+
+7 7 12 9
+--------------------------------------
+Theo hệ 12 con giáp chúng ta có 10 can là:
+GIÁP, ẤT, BÍNH, ĐINH, MẬU, KỶ, CANH, TÂN, NHÂM, QUÝ
+
+và 12 con giáp là
+
+TÝ, SỬU, DẦN, MẸO, THÌN, TỴ, NGỌ, MÙI, THÂN, DẬU, TUẤT, HỢI
+
+Để đặt tên cho một năm âm lịch, người ta sẽ ghép một can với một con giáp. Năm tiếp theo sẽ mang tên của can tiếp theo và con giáp tiếp theo. Ví dụ năm 2015 là năm ẤT MÙI thì năm 2016 sẽ mang can tiếp theo là BÍNH và con giáp tiếp theo là THÂN, như vậy năm 2016 là năm BÍNH THÂN. Một công ty X muốn nhảy vào thị trường làm lịch, hãy giúp công ty X viết phần mềm tính tên âm lịch cho năm.
+
+INPUT
+Một con số nguyên khác 0 có trị tuyệt đối không quá 1 tỷ. Đây là năm cần xét, năm trước công nguyên được quy ước ghi bằng số âm và năm sau công nguyên quy ước ghi bằng số dương.
+
+OUTPUT
+Tên âm lịch của năm đó, viết hoa toàn bộ, không bỏ dấu. Quy ước để phân biệt Tý và Tỵ thì Tý sẽ viết với dấu nháy kép thay cho dấu sắc
+
+TY'
+
+và Tỵ sẽ viết với dấu chấm câu thay cho dấu nặng:
+
+TY.
+
+VÍ DỤ
+Input
+
+Output
+
+2015
+
+AT MUI
+
+1968
+
+MAU THAN
+
+40
+
+CANH TY'
+-208
+
+QUY TY.
+1985
+
+AT SUU
